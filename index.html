@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form id="todo-form">
+      <div id="hedding">
+        <h1>My Todo List</h1>
+
+        <label id="todo-label">Add to your todo list!</label>
+      </div>
+
+      <div>
+        <input id="todo-input-text" type="text" />
+      </div>
+
+      <div id="buttons-div">
+        <input id="add-todo-submit" class="button" type="submit" value="Add" />
+        <input id="remove-completed-submit" class="button" type="button" />
+        <input id="remove-all-submit" class="button" type="button" />
+        <input id="edit-one-submit" class="button" type="button" />
+        <input id="delete-one-submit" class="button" type="button" />
+      </div>
+
+      <div id="todo-list"></div>
+    </form>
+
+    <script src="main.js"></script>
+  </body>
+</html>
