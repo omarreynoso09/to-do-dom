@@ -6,31 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css" />
+
   </head>
 
   <body>
-    <form id="todo-form">
-      <div id="hedding">
-        <h1>My Todo List</h1>
+    <div class="container">
+      <form id="todo-form">
+        <div id="hedding">
+  
+          <p id="name">Hansel To-Do list</p>
 
-        <label id="todo-label">Add to your todo list!</label>
-      </div>
+        <div>
 
-      <div>
-        <input id="todo-input-text" type="text" />
-      </div>
+<ul class="info">
+    <li class="infoitem">Click Add: <span class="important"> To add a task!</span> </li>
+    <li class="infoitem">Click An Item:  <span class="important"> To complete it!</span> </li>
+    <li class="infoitem">Click Remove Completed Task:<span class="important"> To remove a completed task! </span></li>
+    <li class="infoitem">Click Remove All:<span class="important"> To delete everything!</span></li>
+    <li class="infoitem">Edit One:<span class="important"> To edit a single task <span class="veryimportant">First Click</span> button then the task!</li>
+     <li class="infoitem">Delete One: <span class="important"> To delete a single task<span class="veryimportant"> First Click </span>button then the task!</li>
+     
+</ul>
+          <input id="todo-input-text" type="text" autocomplete="off"/>
+        </div>
 
-      <div id="buttons-div">
-        <input id="add-todo-submit" class="button" type="submit" value="Add" />
-        <input id="remove-completed-submit" class="button" type="button" />
-        <input id="remove-all-submit" class="button" type="button" />
-        <input id="edit-one-submit" class="button" type="button" />
-        <input id="delete-one-submit" class="button" type="button" />
-      </div>
+        <div id="buttons-div">
+          <input
+            id="add-todo-submit"
+            class="button"
+            type="submit"
+            value="Add"
+          />
+          <input id="remove-completed-submit" class="button" type="button" />
+          <input id="remove-all-submit" class="button" type="button" />
+          <input id="edit-one-submit" class="button" type="button" />
+          <input id="delete-one-submit" class="button" type="button" />
+        </div>
 
-      <div id="todo-list"></div>
-    </form>
-
+        <div id="todo-list"></div>
+      </form>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
