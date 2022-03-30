@@ -129,9 +129,9 @@ form {
 
   background: rgb(0, 126, 215) -webkit-radial-gradient(
       circle,
-      rgb(17, 17, 17),
+      rgb(255, 255, 255),
       rgba(114, 199, 248, 0.224),
-      rgba(255, 255, 255, 0)
+      rgba(17, 40, 255, 0.279)
     ) no-repeat -280px -94px;
   -webkit-background-clip: text;
   -webkit-background-size: 388px;

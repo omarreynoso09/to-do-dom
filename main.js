@@ -1,21 +1,13 @@
 const todoForm = document.querySelector("#todo-form");
-
 const todoInputText = document.querySelector("#todo-input-text");
-
 const todoList = document.querySelector("#todo-list");
-
 const todoListItem = document.querySelector("#todo-list div");
-
 const addTodoSubmit = document.querySelector("#add-todo-submit");
-
 const deleteOneSubmit = document.querySelector("#delete-one-submit");
-
 const editOneSubmit = document.querySelector("#edit-one-submit");
-
 const removeCompletedSubmit = document.querySelector(
   "#remove-completed-submit"
 );
-
 const removeAllSubmit = document.querySelector("#remove-all-submit");
 
 addTodoSubmit.value = "ADD";
